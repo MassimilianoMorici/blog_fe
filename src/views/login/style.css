@@ -1,0 +1,26 @@
+.login {
+    width: 500px;
+    background: rgb(247, 31, 82);
+    background: linear-gradient(87deg, #5A0B87 0%, #CB2376 100%);
+    border-radius: 20px;
+}
+
+.prova {
+    background-color: transparent;
+    border-color: azure;
+}
+
+.prova:hover {
+    background-color: rgba(255, 255, 255, 0.316);
+    border-color: azure;
+}
+
+.prova:active {
+    background-color: rgba(255, 255, 255, 0.681) !important;
+    border-color: azure !important;
+}
+
+.form-control:focus {
+    border: none;
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.423);
+}
